@@ -1,0 +1,61 @@
+{
+  "id": "domik-mimik-klyuch-portal",
+  "title": "Домик Мимик Ключ Портал",
+  "version": "1.0.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tagger",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Loremessstudio",
+      "discord": "Loremessstudio",
+      "url": "https://boosty.to/loremessstudio"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "LOREMESSSTUDIO",
+      "sorting": "m",
+      "color": "#a48c5a",
+      "packs": ["domik-mimik-klyuch-portal"]
+    }
+  ],
+  "packs": [
+    {
+      "name": "domik-mimik-klyuch-portal",
+      "label": "Домик Мимик Ключ Портал",
+      "path": "packs/domik-mimik-klyuch-portal",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://github.com/LoreMessStudio/HouseMimicPortalKey/releases/download/domik-mimik-klyuch-portal/module.json",
+  "download": "https://github.com/LoreMessStudio/HouseMimicPortalKey/releases/download/domik-mimik-klyuch-portal/domik-mimik-klyuch-portal.zip",
+  "description": "В «Домик, мимик, ключ, портал» группе персонажей, собравшейся совершить ограбление, в руки попадёт таинственный артефакт — Ключ-портал, воспользовавшись которым, они окажутся в петле загадочных и таинственных мест. Разгадывая историю, которая связывает их между собой, персонажи пройдут по следам неуклюжего, но чересчур удачливого археолога. В финале он ответит на все накопившиеся у них вопросы и прольёт свет на образовавшиеся белые пятна.",
+  "url": "https://boosty.to/loremessstudio"
+}
